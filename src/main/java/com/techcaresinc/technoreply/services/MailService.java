@@ -16,7 +16,7 @@ public class MailService {
         SimpleMailMessage mailMessage = new SimpleMailMessage();
 
         mailMessage.setFrom(mail.getFrom());
-        mailMessage.setTo("support@techcaresinc.com");
+        mailMessage.setTo(mail.getTo());
         mailMessage.setSubject(mail.getSubject());
         mailMessage.setText(mail.getContent());
 
