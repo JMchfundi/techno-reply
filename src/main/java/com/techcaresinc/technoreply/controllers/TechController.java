@@ -16,7 +16,7 @@ public class TechController {
     @Autowired
     private MailService service;
 
-    /*.......................techno-reply post service.............................*/
+    /*.......................techno-reply post service made some little change on vsCode.............................*/
     @RequestMapping(value = "/post_service", method = RequestMethod.POST)
     public ResponseEntity post_service(@RequestBody Mail mail
             , UriComponentsBuilder builder) {
